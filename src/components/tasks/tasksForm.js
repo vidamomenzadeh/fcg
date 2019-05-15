@@ -18,8 +18,10 @@ const TaskForm = (props)=>{
     const {getFieldDecorator, validateFieldsAndScroll} = props.form;
     const handleSubmit = ()=>{
         validateFieldsAndScroll((err, values) => {
-            createTask(values);
-            onCancel();
+            if(!err){
+                createTask(values);
+                onCancel();
+            }
         });
     }
 
@@ -37,7 +39,7 @@ const TaskForm = (props)=>{
         <Form onSubmit={handleSubmit} className="login-form">
             <Form.Item label={"Type"}>
                 {getFieldDecorator('taskType', {
-                    rules: [{ required: true, message: 'Please select type of your task!' }],
+                    rules: [{ required: true, message: 'Please select type of your task.' }],
                 })(
                     <Select>
                         {Object.keys(TaskType).map((item)=>(<Option value={item}>{TaskType[item]}</Option>))}
@@ -46,7 +48,7 @@ const TaskForm = (props)=>{
             </Form.Item>
             <Form.Item label={'Comment'}>
                 {getFieldDecorator('comment', {
-                    rules: [{ required: true, message: 'Please add one comment' }],
+                    rules: [{ required: true, message: 'Please add one comment.' }],
                 })(
                    <Input />
                 )}

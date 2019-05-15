@@ -31,10 +31,8 @@ export const models = (state = [], action)=> {
     switch (action.type) {
         case CAR.FETCHMODEL.SUCCESS:
 
-            return [
-                ...state,
-                ...action.payload
-            ]
+            return action.payload;
+
 
         default:
             return state;

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e35d1430-e523-4b98-8dd9-9126750f8302" name="Default Changelist" comment="" />
+    <list default="true" id="e35d1430-e523-4b98-8dd9-9126750f8302" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/tasks/tasksForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/tasks/tasksForm.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -26,7 +29,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="170" />
+          <entry key="js" value="171" />
           <entry key="json" value="1" />
           <entry key="scss" value="14" />
           <entry key="ts" value="4" />
@@ -35,20 +38,20 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="170" />
+          <entry key="JavaScript" value="171" />
           <entry key="SCSS" value="14" />
           <entry key="TypeScript" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="6272" />
+          <entry key="js" value="6294" />
           <entry key="scss" value="305" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="6272" />
+          <entry key="JavaScript" value="6294" />
           <entry key="SCSS" value="305" />
         </counts>
       </usages-collector>
@@ -76,7 +79,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="493">
               <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
@@ -85,11 +88,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/tasks/tasksList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
+            <state relative-caret-position="613">
               <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/tasks/tasksForm.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="41" column="88" selection-start-line="41" selection-start-column="88" selection-end-line="41" selection-end-column="88" />
+              <folding>
+                <element signature="e#32#80#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,17 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/reducers/car.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sass/_gerneral.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="527">
+              <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -183,6 +189,9 @@
       <dir>D:\react\fcg\src</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -218,16 +227,16 @@
         <option value="$PROJECT_DIR$/src/sagas/car.js" />
         <option value="$PROJECT_DIR$/src/queries/car.js" />
         <option value="$PROJECT_DIR$/src/components/car/CarFinancialInfo.js" />
-        <option value="$PROJECT_DIR$/src/reducers/car.js" />
         <option value="$PROJECT_DIR$/src/components/FooterCmp.js" />
         <option value="$PROJECT_DIR$/src/components/LayoutCmp.js" />
-        <option value="$PROJECT_DIR$/src/components/tasks/tasksForm.js" />
         <option value="$PROJECT_DIR$/src/components/HeaderCmp.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/utils/action_helper.js" />
         <option value="$PROJECT_DIR$/src/components/car/CarFormDetail.js" />
         <option value="$PROJECT_DIR$/src/components/tasks/tasksList.js" />
         <option value="$PROJECT_DIR$/src/reducers/task.js" />
+        <option value="$PROJECT_DIR$/src/reducers/car.js" />
+        <option value="$PROJECT_DIR$/src/components/tasks/tasksForm.js" />
       </list>
     </option>
   </component>
@@ -254,6 +263,7 @@
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -397,12 +407,12 @@
       <workItem from="1557821599244" duration="1107000" />
       <workItem from="1557822723192" duration="10879000" />
       <workItem from="1557912801753" duration="2808000" />
-      <workItem from="1557915733370" duration="4321000" />
+      <workItem from="1557915733370" duration="4574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39525000" />
+    <option name="totallyTimeSpent" value="39778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -614,16 +624,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/tasks/tasksForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="60" selection-end-column="2" />
-          <folding>
-            <element signature="e#32#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/CarDetailPageContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -689,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/car.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/car/CarFormDetail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -708,7 +701,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/reducers/task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="493">
           <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
@@ -716,10 +709,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/car.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="44" column="19" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/tasks/tasksList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
+        <state relative-caret-position="613">
           <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/tasks/tasksForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="41" column="88" selection-start-line="41" selection-start-column="88" selection-end-line="41" selection-end-column="88" />
+          <folding>
+            <element signature="e#32#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
