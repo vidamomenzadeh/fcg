@@ -1,0 +1,55 @@
+.tasks-list-wrapper {
+  position: relative;
+  padding-bottom: 40px!important;
+  .new-task{
+    position: absolute;
+    bottom: 10px;
+    padding: 10px 15px;
+    background: #FF5722;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 50%;
+    right: 10px;
+    cursor: pointer;
+    i{
+      color: #fff;
+    }
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+    li{
+      list-style: none;
+      margin: 10px 0px;
+      height: 40px;
+      .ant-checkbox-wrapper{
+        float: right;
+      }
+      i{
+        background: #00BCD5;
+        padding: 8px;
+        border-radius: 50%;
+        font-size: 20px;
+        float: left;
+      }
+      div{
+        float: left;
+        margin-left: 10px;
+        line-height: 36px;
+      }
+    }
+  }
+}
+
+
+.car-detail-form{
+  .submit-btn{
+    margin: 20px 0px;
+    background-color: #FF5722;
+    color: #fff;
+    border: 0px;
+    padding: 0px 25px;
+    height: 40px;
+  }
+}
